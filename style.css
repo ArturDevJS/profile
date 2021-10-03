@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Calibri';
+}
+
+.wrapper {
+    margin: 20px;
+}
+
+.photo-and-info {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper_img {
+    margin: 20px;
+}
+
+.photo {
+    width: 157px;
+    height: 189px;
+    margin-right: 35px;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0;
+}
+
+.profession {
+    color: rgb(235, 107, 68);
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.about {
+    color: rgb(177, 177, 177);
+    max-width: 1000px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.info__item {
+    display: block;
+    text-transform: uppercase;
+}
+
+.definition {
+    display: block;
+    color: rgb(177, 177, 177);
+}
+
+.meaning {
+    font-weight: bold;
+}
+
+.color-grey {
+    color: rgb(177, 177, 177);
+}
+
+.icons {
+    display: inline;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.icons__li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.icons__a {
+    text-decoration: none;
+}
+
+.tabel {
+    display: flex;
+    flex-direction: column;
+}
+
+.table__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.table__line__bold-text {
+    display: block;
+    font-weight: bold;
+    font-size: 19px;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+.table__line_dd {
+    width: 230px;
+    margin: 0;
+}
+
+.table__line__grey-text {
+    text-transform: uppercase;
+    color: rgb(177, 177, 177);
+    width: 150px;
+}
